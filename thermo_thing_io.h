@@ -161,3 +161,4 @@ void handle_currTemp(AdafruitIO_Data *data) {
 
   // print out the received value
   Serial.println(data->value());
+}
